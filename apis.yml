@@ -1,8 +1,26 @@
 aid: bark
 name: Bark
-description: Bark is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Bark is a digital safety and parental-controls company that helps families
+  keep children safer online and in the real world. Its AI-powered platform monitors
+  texts, email, social media, web browsing, and 30+ apps across more than 20 content
+  categories, flagging potential issues such as online predators, cyberbullying, self-harm,
+  and adult content, and pairs that monitoring with screen-time management, app blocking,
+  web filtering, and GPS location alerts. Bark ships as an app for existing iOS and
+  Android devices as well as purpose-built hardware including the Bark Phone, Bark
+  Watch, and Bark Home.
 url: https://raw.githubusercontent.com/api-evangelist/bark/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://d12jofbmgge65s.cloudfront.net/wp-content/uploads/2023/10/boy-apps-monitorning.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Parental Controls
+- Child Safety
+- Online Safety
+- Content Monitoring
+- Screen Time
+- Family Tech
+- Cybersafety
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,28 @@ maintainers:
 common:
 - type: Website
   url: https://bark.us/
+- type: Pricing
+  url: https://www.bark.us/pricing/
+- type: Blog
+  url: https://www.bark.us/blog/
+- type: Support
+  url: https://support.bark.us/hc/en-us
+- type: PrivacyPolicy
+  url: https://www.bark.us/privacy/
+- type: TermsOfService
+  url: https://www.bark.us/terms/
+- type: SignUp
+  url: https://www.bark.us/signup/
+- type: Login
+  url: https://www.bark.us/login
+- type: Security
+  url: https://www.bark.us/security/
+- type: VulnerabilityDisclosure
+  url: security/bark-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/bark-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
