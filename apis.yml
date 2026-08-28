@@ -9,6 +9,17 @@ description: Bark is a digital safety and parental-controls company that helps f
   Android devices as well as purpose-built hardware including the Bark Phone, Bark
   Watch, and Bark Home.
 url: https://raw.githubusercontent.com/api-evangelist/bark/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
